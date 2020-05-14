@@ -1,0 +1,97 @@
+/* Custom Styleesheet */
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0),  #4da9ff);
+}
+
+/* Navigation */
+.navbar {
+  position:sticky;
+}
+
+.navigation {
+  background-color: #fff;
+  box-shadow: 10px 5px 50px .5px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* Main Heading */
+.intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 10px 5px 20px .5px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+/* Carousel */
+.carousel {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  box-shadow: 10px 5px 50px .5px;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6,p,li {
+  font-family: 'Jost', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bolder;
+}
+
+h1,h2 {
+  text-shadow: 2px 2px #4da9ff;
+}
+
+h6 {
+  margin-top: 50px;
+}
+
+.text-wrap {
+  color: #666666;
+}
+
+/* Sections */
+.profession, .skills, .experience, .aspirations {
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+#experience {
+  margin-bottom: 60px;
+}
+
+.rounded {
+  border: 2px solid black;
+  border-radius: 100rem !important;
+  margin-top: 60px;
+  box-shadow: 10px 5px 50px .5px;
+}
+
+li {
+  margin:1em;
+}
+
+/* Aspiration Cards */
+.card-deck {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.card {
+  margin-top: 60px;
+  box-shadow: 10px 5px 20px .5px;
+}
+
+/* Contact Links */
+.contact {
+  display: inline-block;
+  font-size: 2rem;
+}
